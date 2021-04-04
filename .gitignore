@@ -18,6 +18,10 @@ build
 .env.test.local
 .env.production.local
 
+.env
+
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+app.listen(5000, () => {console.log("server started at port 5000")})
